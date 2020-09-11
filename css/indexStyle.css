@@ -1,0 +1,18 @@
+.colorFundo {
+  background: rgba(55, 59, 56, 0.5);
+  border-radius: 10px;
+}
+body {
+   background-image:url(https://images.freeimages.com/images/large-previews/d96/pocket-watch-5-1419874.jpg);
+    background-repeat:repeat;
+    }
+div .icon-block:hover{
+  background-color: #ada6a6;
+  transition: 2s;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+}
+#download-button:hover{
+  background-color: rgb(223, 57, 57) !IMPORTANT;
+  transition: 1.5s;
+}

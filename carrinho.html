@@ -1,0 +1,175 @@
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Postinicoff's - Carrinho</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/header.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estrelas.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <nav class="black lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo"> Postinicoff's</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <div class="light-black-text">
+              <a href="carrinho.html">
+                <i class="center material-icons">shopping_cart</i>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <a href="login.html">Login/Registrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center black-text">Postinicoff's</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Damos as horas para os perdidos</h5>
+      </div>
+      
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="col s12 m7">
+    <h2 class="header">Meu Carrinho</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="https://www.tingimentovirtual.com.br/public/img/carrinho-vazio.jpg">
+        
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h4>FORMAS DE PAGAMENTO</h4>
+          <!-- Formas de Pagamento  -->  
+           <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span>Cartão de Credito</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Boleto Bancário</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input  name="group1" type="radio" />
+        <span>Cartão de Débito</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Bitcoin</span>
+      </label>
+    </p>
+           </form>
+    <div class="row">
+    <form class="col s12" name="formCC">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="nameCC" type="text" class="validate">
+          <label for="nameCC">Nome do Dono do Cartão</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="numberCC" type="text" class="validate" maxlength="16">
+          <label for="numberCC">Numero do Cartão</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="CVV" type="text" class="validate" maxlength="3">
+          <label for="CVV">CVV</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Senha</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="dataVal" type="date" class="validate">
+          <label for="dataVal">Validade do Cartão</label>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+      </div>
+
+     <div class="row" style="float: right;">
+        <div class="input-field col s12">
+            <input type="submit" id="download-button" value="Finalizar" class="btn-large" style="background-color: black"onclick="validateCC()" />
+        </div>
+      </div>
+    </form>
+    </div>
+    
+  </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+  </div>
+    <br><br>
+  </div>
+  
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">NOVO-TEC</h5>
+          <p class="grey-text text-lighten-4">Postinicoff's!® é uma marca registrada de NOVO-TEC RELOGIOS S/A | CNPJ: 05.570.714/0001-59 | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados sem prévio aviso. O Postinicoff's! não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. Este site trabalha 100% em criptografia SSL. e veja as políticas de nossa empresa</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="white-text" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="footer-copyright">
+      <div class="container">
+      Todos os direitos reservados a  <a class="orange-text text-lighten-3" href="http://www.pudim.com.br">Postinicoff's</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/carrinho.js"></script>
+
+</body>
+</html>

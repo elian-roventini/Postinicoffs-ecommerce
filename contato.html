@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Postinicoff's - Contato</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/header.css" type="text/css" rel="stylesheet"/>
+    <link href="css/indexStyle.css" type="text/css" rel="stylesheet"/>
+
+    <style>
+    .colorFundo { background-color: rgba(12, 12, 12, 0.5); border-radius: 10px; }
+    </style>
+</head>
+
+<body>
+    <nav class="black lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo"> Postinicoff's</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <div class="light-black-text">
+              <a href="carrinho.html">
+                <i class="center material-icons">shopping_cart</i>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <a href="login.html">Login/Registrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel colorFundo">
+                        <h5 class="center-align">Contato</h5>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="row">
+                <form class="col s12 colorFundo" name="formContact">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="name" type="text" class="validate" name="name">
+                            <label for="name">Seu nome</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" name="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="subject" type="text" class="validate" name="subject">
+                            <label for="subject">Assunto</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" data-length="300" name="textarea"></textarea>
+                            <label for="textarea1">Mensagem</label>
+                        </div>
+                    </div>
+
+                    <div class="row" style="float: right;">
+        <div class="input-field col s12">
+            <input type="submit" id="download-button" value="Enviar" class="btn-large" style="background-color: black" onclick="validateForm()" />
+        </div>
+      </div>
+                </form>
+            </div>
+    </main>
+
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">NOVO-TEC</h5>
+          <p class="grey-text text-lighten-4">Postinicoff's!® é uma marca registrada de NOVO-TEC RELOGIOS S/A | CNPJ: 05.570.714/0001-59 | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados sem prévio aviso. O Postinicoff's! não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. Este site trabalha 100% em criptografia SSL. e veja as políticas de nossa empresa</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="white-text" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="footer-copyright">
+      <div class="container">
+      Todos os direitos reservados a  <a class="orange-text text-lighten-3" href="http://www.pudim.com.br">Postinicoff's</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/contato.js"></script>
+
+  </body>
+</html>
